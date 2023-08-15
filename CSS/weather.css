@@ -1,0 +1,94 @@
+*{
+margin:0px;
+padding:0px;
+font-family:calibri;	
+	
+}
+body{
+background-image:url("../Images/I3.jpg");	
+background-size:cover;
+	
+}
+#card{
+	width:70%;
+	max-width:400px;
+	background:linear-gradient(rgba(255,255,255,0.5),rgba(0,0,0,0.5));
+	margin:165px auto 0px;
+	padding:40px 20px;
+	border-radius:40px;
+	color:white;
+	height:600px;
+	box-shadow:10px 10px 8px black;
+	height:500px;
+}
+.search{
+	width:100%;
+	align-item:center;
+	display:flex;
+	justify-content:space between;
+}
+.search input{
+	width:95%;
+	background-color:transparent;
+	border-radius:20px;
+	font-size:30px;
+	padding-left:20px;
+}
+#weather{
+	width:100%;
+	height:95%;
+	//border:1px solid black;
+	margin-top:5px;
+}
+#img{
+	height:200px;
+	width:200px;
+	//border:1px solid black;
+	text-align:center;
+	background-image:url("../Images/rain.png");
+	margin:0px auto;
+}
+#temp{
+	height:42px;
+	width:25.5%;
+	//border:1px solid black;
+	font-size:30px;
+	float:left;
+}
+#detail1{
+	height:52px;
+	width:97.5%;
+	//border:1px solid black;
+	padding:5px;
+	margin-bottom:4px;
+}
+#detail2{
+	height:202px;
+	width:97.5%;
+	//border:1px solid black;
+	padding:5px;
+}
+#name{
+	height:42px;
+	width:60.5%;
+	//border:1px solid black;
+	float:right;
+	font-size:30px;
+	text-align:right;
+}
+#col1{
+	height:122px;
+	width:48%;
+	//border:1px solid black;
+	float:left;
+	font-size:18px;
+
+}
+#col2{
+	height:122px;
+	width:48%;
+	//border:1px solid black;
+	float:right;
+	font-size:18px;
+   text-align:right;
+}
